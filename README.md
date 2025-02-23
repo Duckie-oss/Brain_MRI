@@ -38,13 +38,15 @@ The model is compiled with the Adamax optimizer and trained using the training d
 
 
 ## Evaluation
-The model's performance is evaluated on the test set, and the accuracy is reported.
+The model's performance is evaluated on the test set, and the accuracy is reported. The model achieves an accuracy of 90 - 92% and is generalized.
 
+![image](https://github.com/user-attachments/assets/d0842eaf-84d9-4aba-a019-375baa34b15d)
+![image](https://github.com/user-attachments/assets/824e7a8f-d07c-42b3-be81-ecb2c2169caa)
 ![image](https://github.com/user-attachments/assets/7872c75c-5ab1-48f3-af8b-32dcd7c9eec0)
 ![image](https://github.com/user-attachments/assets/c3de3e48-2a31-43eb-9b22-0cfa6631cd8e)
 ![image](https://github.com/user-attachments/assets/11ca05db-3502-4eeb-804f-2bd97917dd66)
 
 ## Conclusion
-This notebook demonstrates the process of classifying brain MRI images using a CNN. The model achieves a high accuracy on the test set, indicating its effectiveness in distinguishing between different types of brain tumors and no tumor cases.
+This notebook demonstrates the process of classifying brain MRI images using a CNN. The model achieves a high accuracy on the test set, indicating its effectiveness in distinguishing between different types of brain tumors and no tumor cases. My goal is to achieve a 
 
-For further improvements, consider experimenting with different model architectures, hyperparameters tuning, and data augmentation techniques.
+For further improvements, consider experimenting with different model architectures, hyperparameters tuning, implementing transfer learning and reinforcement learning, and data augmentation techniques.
