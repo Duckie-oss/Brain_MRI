@@ -1,7 +1,7 @@
 # Brain_MRI
 This Jupyter notebook is designed to classify brain MRI images into four categories: glioma, meningioma, no tumor, and pituitary tumor. The notebook uses a Convolutional Neural Network (CNN) built with TensorFlow and Keras to perform the classification task.
 
-## Table of COntents
+## Table of Contents
 -[Introduction](#introduction)
 -[Setup and Dependencies](#set_and_dependencies)
 -[Data Loading and Preprocessing](#data_loading_and_preprocessing)
@@ -14,7 +14,7 @@ This Jupyter notebook is designed to classify brain MRI images into four categor
 The goal of this project is to classify brain MRI images into four categories using a deep learning model. The dataset used in this notebook is the Brain Tumor MRI Dataset from Kaggle, which contains images of brain scans labeled with the corresponding tumor type or no tumor.
 
 ## Setup and Dependencies
-The notebook requires several Python libraries, including TensorFlow, Keras, NumPy, Pandas, Matplotlib, Seaborn, and OpenCV. These libraries are used for data manipulation, visualization, and building the neural network model.
+The notebook requires several Python libraries, including TensorFlow, Keras, NumPy, Pandas, Matplotlib, Seaborn, and OpenCV. These libraries are used for data manipulation, visualization, and building the neural network model. Python version is 3.11.9. Requires the instalation of Tensorflow, opencv-python, and kagglehub.
 
 ![image](https://github.com/user-attachments/assets/d97682c0-4e9a-4f5d-bd21-4c0863c2ccc2)
 
@@ -31,4 +31,7 @@ The CNN model consists of four convolutional layers followed by max-pooling laye
 ![image](https://github.com/user-attachments/assets/415be44a-c537-4757-9695-902b104d5612)
 ![image](https://github.com/user-attachments/assets/482e816a-8fbb-4dc9-934e-754e9a1632ee)
 
-## Evaluation
+## Model Training
+The model is compiled with the Adamax optimizer and trained using the training data. Data augmentation and early stopping is applied to improve generalization and prevent overfitting.
+
+![image](https://github.com/user-attachments/assets/68c6bbf6-b129-417a-9397-440d922fe795)
