@@ -35,3 +35,16 @@ The CNN model consists of four convolutional layers followed by max-pooling laye
 The model is compiled with the Adamax optimizer and trained using the training data. Data augmentation and early stopping is applied to improve generalization and prevent overfitting.
 
 ![image](https://github.com/user-attachments/assets/68c6bbf6-b129-417a-9397-440d922fe795)
+
+
+## Evaluation
+The model's performance is evaluated on the test set, and the accuracy is reported.
+
+![image](https://github.com/user-attachments/assets/7872c75c-5ab1-48f3-af8b-32dcd7c9eec0)
+![image](https://github.com/user-attachments/assets/c3de3e48-2a31-43eb-9b22-0cfa6631cd8e)
+![image](https://github.com/user-attachments/assets/11ca05db-3502-4eeb-804f-2bd97917dd66)
+
+## Conclusion
+This notebook demonstrates the process of classifying brain MRI images using a CNN. The model achieves a high accuracy on the test set, indicating its effectiveness in distinguishing between different types of brain tumors and no tumor cases.
+
+For further improvements, consider experimenting with different model architectures, hyperparameters, and data augmentation techniques.
