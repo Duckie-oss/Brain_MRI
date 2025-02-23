@@ -25,3 +25,9 @@ The dataset is loaded using the Kaggle API. The images are resized to 224x224 pi
 ![image](https://github.com/user-attachments/assets/48eb2468-2a8e-45bb-9383-da273b5fa283)
 ![image](https://github.com/user-attachments/assets/5d0d3c3c-c1d6-4217-a150-371ea0f900d6)
 
+## Model Architecture
+The CNN model consists of four convolutional layers followed by max-pooling layers, a flattening layer, and fully connected layers with dropout for regularization.
+![image](https://github.com/user-attachments/assets/415be44a-c537-4757-9695-902b104d5612)
+![image](https://github.com/user-attachments/assets/482e816a-8fbb-4dc9-934e-754e9a1632ee)
+
+## Evaluation
