@@ -1,4 +1,4 @@
-# Brain_MRI
+# Brain MRI Scan Classification
 This Jupyter notebook is designed to classify brain MRI images into four categories: glioma, meningioma, no tumor, and pituitary tumor. The notebook uses a Convolutional Neural Network (CNN) built with TensorFlow and Keras to perform the classification task.
 
 ## Table of Contents
