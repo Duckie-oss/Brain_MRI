@@ -47,4 +47,4 @@ The model's performance is evaluated on the test set, and the accuracy is report
 ## Conclusion
 This notebook demonstrates the process of classifying brain MRI images using a CNN. The model achieves a high accuracy on the test set, indicating its effectiveness in distinguishing between different types of brain tumors and no tumor cases.
 
-For further improvements, consider experimenting with different model architectures, hyperparameters, and data augmentation techniques.
+For further improvements, consider experimenting with different model architectures, hyperparameters tuning, and data augmentation techniques.
