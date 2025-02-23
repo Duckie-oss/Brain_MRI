@@ -16,7 +16,7 @@ The goal of this project is to classify brain MRI images into four categories us
 ## Setup and Dependencies
 The notebook requires several Python libraries, including TensorFlow, Keras, NumPy, Pandas, Matplotlib, Seaborn, and OpenCV. These libraries are used for data manipulation, visualization, and building the neural network model. Python version is 3.11.9. Requires the instalation of Tensorflow, opencv-python, and kagglehub.
 
-![image](https://github.com/user-attachments/assets/d97682c0-4e9a-4f5d-bd21-4c0863c2ccc2)
+![image](https://github.com/user-attachments/assets/b58e7b87-b5b0-4ce2-a781-6e95c340fe60)
 
 ## Data Loading and Preprocessing
 The dataset is loaded using the Kaggle API. The images are resized to 224x224 pixels and normalized. The labels are converted to categorical format for the model.
