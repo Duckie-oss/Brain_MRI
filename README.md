@@ -20,6 +20,7 @@ The notebook requires several Python libraries, including TensorFlow, Keras, Num
 
 ## Data Loading and Preprocessing
 The dataset is loaded using the Kaggle API. The images are resized to 224x224 pixels and normalized. The labels are converted to categorical format for the model.
+
 ![image](https://github.com/user-attachments/assets/07289237-3d52-4b63-93c3-324a218ac593)
 ![image](https://github.com/user-attachments/assets/48eb2468-2a8e-45bb-9383-da273b5fa283)
 ![image](https://github.com/user-attachments/assets/5d0d3c3c-c1d6-4217-a150-371ea0f900d6)
